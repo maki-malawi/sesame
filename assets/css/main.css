@@ -1116,6 +1116,10 @@ section {
 /*--------------------------------------------------------------
 # Chefs Section
 --------------------------------------------------------------*/
+.img-fluid {
+  aspect-ratio: 3/3;
+  object-fit: contain;
+}
 .chefs .chef-member {
   overflow: hidden;
   text-align: center;
